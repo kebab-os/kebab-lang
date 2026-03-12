@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+"""Command-line entry point for the kebab language interpreter."""
+
+import sys
+import os
+
+# Allow running directly from the repo root without installation
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
+from kebab.cli import main
+
+if __name__ == "__main__":
+    main()

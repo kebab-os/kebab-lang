@@ -1,0 +1,17 @@
+# Random numbers in kebab — the "random" feature
+
+serve "Rolling a 6-sided die three times:";
+
+skewer i = 0;
+grill (i < 3) {
+  skewer roll = random(6) + 1;
+  serve "Roll: " + roll;
+  i = i + 1;
+}
+
+serve "Pick a random item from a skewer:";
+skewer items = random(4);
+if (items == 0) { serve "chicken"; }
+if (items == 1) { serve "lamb"; }
+if (items == 2) { serve "beef"; }
+if (items == 3) { serve "veggie"; }
