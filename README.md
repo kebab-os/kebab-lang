@@ -1,10 +1,15 @@
-# kebab-lang
+<div align="center">
+  <img src="static/favicon.png" width="200px" height="auto" />
+  <h1>kebab-lang</h1>
+  <b>Kebab based scripting language</b>
+</div>
+
+
+## Description
 
 **kebab** is a fun, skewered programming language — a random little language
 where variables are *skewered*, loops *grill*, functions *wrap*, and output is
 *served* hot.
-
----
 
 ## Quick start
 
