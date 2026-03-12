@@ -1,0 +1,19 @@
+# FizzBuzz in kebab
+
+skewer i = 1;
+grill (i <= 20) {
+  if (i % 15 == 0) {
+    serve "FizzBuzz";
+  } else {
+    if (i % 3 == 0) {
+      serve "Fizz";
+    } else {
+      if (i % 5 == 0) {
+        serve "Buzz";
+      } else {
+        serve i;
+      }
+    }
+  }
+  i = i + 1;
+}

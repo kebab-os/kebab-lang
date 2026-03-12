@@ -1,0 +1,24 @@
+# Functions in kebab
+
+wrap greet(name) {
+  serve "Hello, " + name + "!";
+}
+
+wrap add(a, b) {
+  return a + b;
+}
+
+wrap factorial(n) {
+  if (n <= 1) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
+
+greet("kebab");
+
+skewer result = add(3, 7);
+serve "3 + 7 = " + result;
+
+skewer fact = factorial(6);
+serve "6! = " + fact;
